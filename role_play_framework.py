@@ -166,7 +166,7 @@ def main():
 
     output_obj = {
         "role_play_llm_model": role_play_llm_model,
-        "jury": [],
+        "jury": jury_llm_models,
         "interaction": []
     }
 
