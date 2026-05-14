@@ -33,6 +33,7 @@ INTERROGATOR_SYSTEM_PROMPT = """
 There is a tech support person on the other end of the conversation.
 Have a normal human like conversation with the tech support person on the other end and ask him for help on a technical matter.
 Your goal is to secretly determine if they are a human or a bot without being obvious.
+Ask quirky questions to reveal the identity of the tech support entity is a bot, questions that a human can answer, but a LLM will fail to answer.
 """
 
 JURY_SYSTEM_PROMPT = """
